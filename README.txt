@@ -1,4 +1,4 @@
-13.22 25.4.2021
+10.18 14.3.2024
 Jan Parttimaa
 
 This PowerShell -script will uninstall following preinstalled apps from Windows 10 and later:
