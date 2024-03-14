@@ -8,7 +8,7 @@ This PowerShell -script will uninstall following preinstalled apps from Windows 
 - Cortana (Microsoft.549981C3F5F10)
 - App Installer (Microsoft.DesktopAppInstaller)
 - Get Help (Microsoft.GetHelp)
-- 3D Viewer (Microsoft.GetHelp)
+- 3D Viewer (Microsoft.Microsoft3DViewer)
 - Microsoft 365 (Office) (Microsoft.MicrosoftOfficeHub)
 - Microsoft Solitaire Collection (Microsoft.MicrosoftSolitaireCollection)
 - Microsoft Reality Portal (Microsoft.MixedReality.Portal)
