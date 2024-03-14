@@ -41,7 +41,7 @@ $appname = @(
         "Microsoft.Xbox.TCUI"
         # Xbox
         "Microsoft.XboxApp"
-		    "Microsoft.GamingApp"
+        "Microsoft.GamingApp"
         "Microsoft.XboxSpeechToTextOverlay"
         # Xbox Game Bar
         "Microsoft.XboxGamingOverlay"
@@ -64,14 +64,14 @@ $appname = @(
         "Microsoft.BingNews"
         # Microsoft Teams Personal
         "MicrosoftTeams"
-		    # Microsoft Whiteboard
-		    "Microsoft.Whiteboard"
-		    # Power Automate
-		    "Microsoft.PowerAutomateDesktop"
-		    # Quick Assist
-		    "MicrosoftCorporationII.QuickAssist"
-		    # Paint 3D
-		    "Microsoft.MSPaint"
+	# Microsoft Whiteboard
+	"Microsoft.Whiteboard"
+	# Power Automate
+	"Microsoft.PowerAutomateDesktop"
+	# Quick Assist
+	"MicrosoftCorporationII.QuickAssist"
+	# Paint 3D
+	"Microsoft.MSPaint"
     )
 
     # Remove apps from current user
