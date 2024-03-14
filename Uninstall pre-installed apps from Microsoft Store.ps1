@@ -79,7 +79,7 @@ $appname = @(
     Get-AppxPackage -Name $app | Remove-AppxPackage -ErrorAction SilentlyContinue
     }
 
-    # Remove apps from all users - may need to reboot after running above and run this again
+    # Remove apps from all users - may need to soft reboot after running above and run this again
     ForEach($app in $appname){
     Get-AppxPackage -Allusers -Name $app | Remove-AppxPackage -Allusers -ErrorAction SilentlyContinue
     }
