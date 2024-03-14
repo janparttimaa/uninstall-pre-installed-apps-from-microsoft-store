@@ -1,0 +1,52 @@
+13.22 25.4.2021
+Jan Parttimaa
+
+This PowerShell -script will uninstall following preinstalled apps from Windows 10 and later:
+
+- OneNote for Windows 10 (Microsoft.Office.OneNote)
+- Mail and Calendar (microsoft.windowscommunicationsapps)
+- Cortana (Microsoft.549981C3F5F10)
+- App Installer (Microsoft.DesktopAppInstaller)
+- Get Help (Microsoft.GetHelp)
+- 3D Viewer (Microsoft.GetHelp)
+- Microsoft 365 (Office) (Microsoft.MicrosoftOfficeHub)
+- Microsoft Solitaire Collection (Microsoft.MicrosoftSolitaireCollection)
+- Microsoft Reality Portal (Microsoft.MixedReality.Portal)
+- People (Microsoft.People)
+- Skype (Microsoft.SkypeApp)
+- Store Purchase App (Microsoft.StorePurchaseApp)
+- Microsoft.VCLibs.140.00 (Microsoft.VCLibs.140.00)
+- VP9 Video Exrensions (Microsoft.VP9VideoExtensions)
+- Microsoft Pay (Microsoft.Wallet)
+- Web Media Extensions (Microsoft.WebMediaExtensions)
+- Webp Image Extensions (Microsoft.WebpImageExtension)
+- Feedback Hub (Microsoft.WindowsFeedbackHub)
+- Maps (Microsoft.WindowsMaps)
+- Xbox Game UI (Microsoft.Xbox.TCUI)
+- Xbox (Microsoft.XboxApp, Microsoft.GamingApp, Microsoft.XboxSpeechToTextOverlay)
+- Xbox Game Bar (Microsoft.XboxGameOverlay, Microsoft.XboxGamingOverlay)
+- Xbox Indentity Provider (Microsoft.XboxIdentityProvider)
+- Phone Link (Microsoft.YourPhone)
+- Groove Music / Windows Medial Player (Microsoft.ZuneMusic)
+- Movies & TV (Microsoft.ZuneVideo)
+- Microsoft Clipchamp (Clipchamp.Clipchamp)
+- Microsoft To-Do (Microsoft.Todos)
+- Dev Home (Microsoft.Windows.DevHome)
+- Microsoft News (Microsoft.BingNews)
+- Microsoft Teams Personal (MicrosoftTeams)
+- Microsoft Whiteboard (Microsoft.Whiteboard)
+- Power Automate (Microsoft.PowerAutomateDesktop)
+- Quick Assist (MicrosoftCorporationII.QuickAssist)
+- Paint 3D (Microsoft.MSPaint)
+
+Open Command Prompt, PowerShell or Windows Terminal as Administrator and give following command:
+
+powershell.exe -ExecutionPolicy Bypass -File "./Uninstall pre-installed apps from Microsoft Store.ps1"
+
+You can also deploy this script via Intune or Configuration Manager. 
+
+This script is suitable for situations when devices will be upgraded e.g. from Windows 10 to Windows 11 using Feature Update. On those situations, recommendation is to run this script frequently for example once per day.
+
+You can also use this on Windows-image created on Microsoft Deployment Toolkit (MDT) or through Configuration Manager.
+
+Feel free to remove apps that you want to keep instead from the script.
