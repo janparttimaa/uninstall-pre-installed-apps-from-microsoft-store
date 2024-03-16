@@ -32,8 +32,6 @@ $appname = @(
         "Microsoft.WebpImageExtension"
         # Feedback Hub
         "Microsoft.WindowsFeedbackHub"
-        # Maps
-        "Microsoft.WindowsMaps"
         # Xbox Game UI
         "Microsoft.Xbox.TCUI"
         # Xbox
