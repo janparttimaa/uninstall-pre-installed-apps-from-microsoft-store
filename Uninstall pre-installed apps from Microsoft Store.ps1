@@ -6,8 +6,6 @@ $appname = @(
         "microsoft.windowscommunicationsapps"
         # Cortana
         "Microsoft.549981C3F5F10"
-        # App Installer
-        "Microsoft.DesktopAppInstaller"
         # Get Help
         "Microsoft.GetHelp"
         # 3D Viewer
