@@ -74,7 +74,10 @@ $appname = @(
 	# Paint 3D
 	"Microsoft.MSPaint"
     )
-
+    # Starting uninstallation.
+    Write-Host "Uninstalling defined pre-installed modern apps..."
+    Start-Sleep -Seconds 5
+    
     # Remove apps from current user.
     ForEach($app in $appname){
     Get-AppxPackage -Name $app | Remove-AppxPackage -Verbose -ErrorAction SilentlyContinue
@@ -91,4 +94,5 @@ $appname = @(
     }
 
 # Closing script after 20 seconds delay.
-timeout /t 20 /nobreak
+Write-Host "Uninstallation done. Closing script..."
+Start-Sleep -Seconds 20
