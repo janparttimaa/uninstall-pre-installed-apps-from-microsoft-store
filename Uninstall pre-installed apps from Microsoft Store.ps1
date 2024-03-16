@@ -57,7 +57,7 @@ $appname = @(
         "Microsoft.ZuneVideo"
         # Microsoft Clipchamp
         "Clipchamp.Clipchamp"
-        # Microsoft To-Do
+        # Microsoft To Do
         "Microsoft.Todos"
         # Dev Home
         "Microsoft.Windows.DevHome"
