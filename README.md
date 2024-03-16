@@ -36,7 +36,7 @@ This PowerShell -script will uninstall following preinstalled apps from Windows 
 ## Instructions
 - Open Command Prompt, PowerShell or Windows Terminal as Administrator and give following command:
 ```
-powershell.exe -ExecutionPolicy Bypass -File ".\Uninstall pre-installed apps from Microsoft Store.ps1"
+powershell.exe -ExecutionPolicy Bypass -File '.\Uninstall pre-installed apps from Microsoft Store.ps1'
 ```
 - You can also deploy this script via Intune or Configuration Manager.
 - This script is suitable for situations when devices will be upgraded e.g. from Windows 10 to Windows 11 using Feature Update. On those situations, recommendation is to run this script frequently for example once per day.
