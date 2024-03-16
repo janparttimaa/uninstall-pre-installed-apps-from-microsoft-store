@@ -74,24 +74,25 @@ $appname = @(
 	# Paint 3D
 	"Microsoft.MSPaint"
     )
-    # Starting uninstallation.
-    Write-Host "Uninstalling defined pre-installed modern apps..."
-    Start-Sleep -Seconds 5
+
+# Starting uninstallation.
+Write-Host "Uninstalling defined pre-installed modern apps..."
+Start-Sleep -Seconds 5
     
-    # Remove apps from current user.
-    ForEach($app in $appname){
-    Get-AppxPackage -Name $app | Remove-AppxPackage -Verbose -ErrorAction SilentlyContinue
-    }
+# Remove apps from current user.
+ForEach($app in $appname){
+Get-AppxPackage -Name $app | Remove-AppxPackage -Verbose -ErrorAction SilentlyContinue
+}
 
-    # Remove apps from all users. Some apps that will be uninstalled might need soft reboot so thwy will be completely uninstalled.
-    ForEach($app in $appname){
-    Get-AppxPackage -Allusers -Name $app | Remove-AppxPackage -Allusers -Verbose -ErrorAction SilentlyContinue
-    }
+# Remove apps from all users. Some apps that will be uninstalled might need soft reboot so thwy will be completely uninstalled.
+ForEach($app in $appname){
+Get-AppxPackage -Allusers -Name $app | Remove-AppxPackage -Allusers -Verbose -ErrorAction SilentlyContinue
+}
 
-    # Remove apps from provisioned apps list so they don't reinstall on new users.
-    ForEach($app in $appname){
-    Get-AppxProvisionedPackage -Online | where {$_.PackageName -like $app} | Remove-AppxProvisionedPackage -Online -Verbose -ErrorAction SilentlyContinue
-    }
+# Remove apps from provisioned apps list so they don't reinstall on new users.
+ForEach($app in $appname){
+Get-AppxProvisionedPackage -Online | where {$_.PackageName -like $app} | Remove-AppxProvisionedPackage -Online -Verbose -ErrorAction SilentlyContinue
+}
 
 # Closing script after 20 seconds delay.
 Write-Host "Uninstallation done. Closing script..."
