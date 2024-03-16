@@ -29,7 +29,7 @@ This PowerShell -script will uninstall following preinstalled apps from Windows 
 - Microsoft Clipchamp (Clipchamp.Clipchamp)
 - Microsoft To Do (Microsoft.Todos)
 - Dev Home (Microsoft.Windows.DevHome)
-- Microsoft News (Microsoft.BingNews)
+- News (Microsoft.BingNews)
 - Microsoft Teams Personal (MicrosoftTeams)
 - Microsoft Whiteboard (Microsoft.Whiteboard)
 - Power Automate (Microsoft.PowerAutomateDesktop)
