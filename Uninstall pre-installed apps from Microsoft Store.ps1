@@ -61,7 +61,7 @@ $appname = @(
         "Microsoft.Todos"
         # Dev Home
         "Microsoft.Windows.DevHome"
-        # Microsoft News
+        # News
         "Microsoft.BingNews"
         # Microsoft Teams Personal
         "MicrosoftTeams"
