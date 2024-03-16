@@ -70,7 +70,7 @@ $appname = @(
     )
 
 # Starting uninstallation.
-Write-Host "Uninstalling defined pre-installed modern apps..."
+Write-Host "Uninstalling defined pre-installed Microsoft Store apps..."
 Start-Sleep -Seconds 5
     
 # Remove apps from current user.
