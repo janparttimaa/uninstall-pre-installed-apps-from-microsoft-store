@@ -14,7 +14,7 @@ $appname = @(
         "Microsoft.Microsoft3DViewer"
         # Microsoft 365 (Office)
         "Microsoft.MicrosoftOfficeHub"
-        # Microsoft Solitaire Collection
+        # Solitaire & Casual Games
         "Microsoft.MicrosoftSolitaireCollection"
         # Mixed Reality Portal
         "Microsoft.MixedReality.Portal"
