@@ -59,14 +59,14 @@ $appname = @(
         "Microsoft.BingNews"
         # Microsoft Teams Personal
         "MicrosoftTeams"
-	# Microsoft Whiteboard
-	"Microsoft.Whiteboard"
-	# Power Automate
-	"Microsoft.PowerAutomateDesktop"
-	# Quick Assist
-	"MicrosoftCorporationII.QuickAssist"
-	# Paint 3D
-	"Microsoft.MSPaint"
+        # Microsoft Whiteboard
+        "Microsoft.Whiteboard"
+        # Power Automate
+        "Microsoft.PowerAutomateDesktop"
+        # Quick Assist
+        "MicrosoftCorporationII.QuickAssist"
+        # Paint 3D
+        "Microsoft.MSPaint"
     )
 
 # Starting uninstallation.
