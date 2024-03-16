@@ -10,7 +10,7 @@ This PowerShell -script will uninstall following preinstalled apps from Windows 
 - Get Help (Microsoft.GetHelp)
 - 3D Viewer (Microsoft.Microsoft3DViewer)
 - Microsoft 365 (Office) (Microsoft.MicrosoftOfficeHub)
-- Microsoft Solitaire Collection (Microsoft.MicrosoftSolitaireCollection)
+- Solitaire & Casual Games (Microsoft.MicrosoftSolitaireCollection)
 - Microsoft Reality Portal (Microsoft.MixedReality.Portal)
 - People (Microsoft.People)
 - Skype (Microsoft.SkypeApp)
@@ -41,7 +41,7 @@ This PowerShell -script will uninstall following preinstalled apps from Windows 
 
 Open Command Prompt, PowerShell or Windows Terminal as Administrator and give following command:
 
-powershell.exe -ExecutionPolicy Bypass -File "./Uninstall pre-installed apps from Microsoft Store.ps1"
+powershell.exe -ExecutionPolicy Bypass -File ".\Uninstall pre-installed apps from Microsoft Store.ps1"
 
 You can also deploy this script via Intune or Configuration Manager. 
 
