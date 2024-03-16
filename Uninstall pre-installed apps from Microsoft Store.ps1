@@ -24,8 +24,6 @@ $appname = @(
         "Microsoft.SkypeApp"
         # Store Purchase App
         "Microsoft.StorePurchaseApp"
-        # Microsoft.VCLibs.140.00
-        "Microsoft.VCLibs.140.00"
         # VP9 Video Extensions
         "Microsoft.VP9VideoExtensions"
         # Microsoft Pay
