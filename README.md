@@ -1,4 +1,4 @@
-# Uninstall Pre-installed apps from Microsoft Store
+# Uninstall pre-installed apps from Microsoft Store
 This PowerShell -script will uninstall following preinstalled apps from Windows 10 and later:
 - OneNote for Windows 10 (Microsoft.Office.OneNote)
 - Mail and Calendar (microsoft.windowscommunicationsapps)
