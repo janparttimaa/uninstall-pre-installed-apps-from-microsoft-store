@@ -78,7 +78,7 @@ ForEach($app in $appname){
 Get-AppxPackage -Name $app | Remove-AppxPackage -Verbose -ErrorAction SilentlyContinue
 }
 
-# Remove apps from all users. Some apps that will be uninstalled might need soft reboot so thwy will be completely uninstalled.
+# Remove apps from all users. Some apps that will be uninstalled might need soft reboot so they will be completely uninstalled.
 ForEach($app in $appname){
 Get-AppxPackage -Allusers -Name $app | Remove-AppxPackage -Allusers -Verbose -ErrorAction SilentlyContinue
 }
