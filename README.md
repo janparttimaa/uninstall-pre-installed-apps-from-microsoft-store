@@ -9,7 +9,7 @@ This PowerShell -script will uninstall following preinstalled apps from Windows 
 | Get Help                           | Microsoft.GetHelp                            |
 | Groove Music / Windows Media Player| Microsoft.ZuneMusic                          |
 | Mail and Calendar                  | microsoft.windowscommunicationsapps          |
-| Microsoft 365 (Office)             | Microsoft.MicrosoftOfficeHub                 |
+| Microsoft 365 (Office) / Microsoft 365 Copilot             | Microsoft.MicrosoftOfficeHub                 |
 | Microsoft Clipchamp                | Clipchamp.Clipchamp                          |
 | Microsoft Pay                      | Microsoft.Wallet                             |
 | Microsoft Reality Portal           | Microsoft.MixedReality.Portal                |
