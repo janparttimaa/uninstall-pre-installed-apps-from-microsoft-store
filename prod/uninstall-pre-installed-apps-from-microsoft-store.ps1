@@ -9,7 +9,7 @@
     NOTE: Please check instructions from GitHub before deploying this script.
 
 .VERSION
-    20250311
+    20250321
 
 .AUTHOR
     Jan Parttimaa (https://github.com/janparttimaa/uninstall-pre-installed-apps-from-microsoft-store)
@@ -22,8 +22,9 @@
     You may obtain a copy of the License at https://opensource.org/licenses/MIT
 
 .RELEASE NOTES
-    20240316 - Initial release
+    20240316 - Initial release.
     20250311 - Refresh update to the script.
+    20250321 - Set variables to alphabetical order based on application name and added Copilot.
 
 .EXAMPLE
     powershell.exe -ExecutionPolicy Bypass -File .\uninstall-pre-installed-apps-from-microsoft-store.ps1
@@ -32,74 +33,74 @@
 
 # Define variables.
 $appname = @(
-        # OneNote for Windows 10
-        "Microsoft.Office.OneNote"
-        # Mail and Calendar
-        "microsoft.windowscommunicationsapps"
-        # Cortana
-        "Microsoft.549981C3F5F10"
-        # Get Help
-        "Microsoft.GetHelp"
-        # 3D Viewer
-        "Microsoft.Microsoft3DViewer"
-        # Microsoft 365 (Office)
-        "Microsoft.MicrosoftOfficeHub"
-        # Solitaire & Casual Games
-        "Microsoft.MicrosoftSolitaireCollection"
-        # Mixed Reality Portal
-        "Microsoft.MixedReality.Portal"
-        # People
-        "Microsoft.People"
-        # Skype
-        "Microsoft.SkypeApp"
-        # Store Purchase App
-        "Microsoft.StorePurchaseApp"
-        # VP9 Video Extensions
-        "Microsoft.VP9VideoExtensions"
-        # Microsoft Pay
-        "Microsoft.Wallet"
-        # Web Media Extensions
-        "Microsoft.WebMediaExtensions"
-        # Webp Image Extensions
-        "Microsoft.WebpImageExtension"
-        # Feedback Hub
-        "Microsoft.WindowsFeedbackHub"
-        # Xbox Game UI
-        "Microsoft.Xbox.TCUI"
-        # Xbox
-        "Microsoft.XboxApp"
-        "Microsoft.GamingApp"
-        "Microsoft.XboxSpeechToTextOverlay"
-        # Xbox Game Bar
-        "Microsoft.XboxGamingOverlay"
-        "Microsoft.XboxGameOverlay"
-        # Xbox Identity Provider
-        "Microsoft.XboxIdentityProvider"
-        # Phone Link
-        "Microsoft.YourPhone"
-        # Groove Music / Windows Media Player
-        "Microsoft.ZuneMusic"
-        # Movies & TV
-        "Microsoft.ZuneVideo"
-        # Microsoft Clipchamp
-        "Clipchamp.Clipchamp"
-        # Microsoft To Do
-        "Microsoft.Todos"
-        # Dev Home
-        "Microsoft.Windows.DevHome"
-        # News
-        "Microsoft.BingNews"
-        # Microsoft Teams Personal
-        "MicrosoftTeams"
-        # Microsoft Whiteboard
-        "Microsoft.Whiteboard"
-        # Power Automate
-        "Microsoft.PowerAutomateDesktop"
-        # Quick Assist
-        "MicrosoftCorporationII.QuickAssist"
-        # Paint 3D
-        "Microsoft.MSPaint"
-    )
+    # 3D Viewer
+    "Microsoft.Microsoft3DViewer"
+    # Copilot
+    "Microsoft.Copilot"
+    # Cortana
+    "Microsoft.549981C3F5F10"
+    # Dev Home
+    "Microsoft.Windows.DevHome"
+    # Feedback Hub
+    "Microsoft.WindowsFeedbackHub"
+    # Get Help
+    "Microsoft.GetHelp"
+    # Groove Music / Windows Media Player
+    "Microsoft.ZuneMusic"
+    # Mail and Calendar
+    "microsoft.windowscommunicationsapps"
+    # Microsoft 365 (Office) / Microsoft 365 Copilot
+    "Microsoft.MicrosoftOfficeHub"
+    # Microsoft Clipchamp
+    "Clipchamp.Clipchamp"
+    # Microsoft Pay
+    "Microsoft.Wallet"
+    # Microsoft Reality Portal
+    "Microsoft.MixedReality.Portal"
+    # Microsoft Teams Personal
+    "MicrosoftTeams"
+    # Microsoft To Do
+    "Microsoft.Todos"
+    # Microsoft Whiteboard
+    "Microsoft.Whiteboard"
+    # Movies & TV
+    "Microsoft.ZuneVideo"
+    # OneNote for Windows 10
+    "Microsoft.Office.OneNote"
+    # Paint 3D
+    "Microsoft.MSPaint"
+    # People
+    "Microsoft.People"
+    # Phone Link / Your Phone
+    "Microsoft.YourPhone"
+    # Power Automate
+    "Microsoft.PowerAutomateDesktop"
+    # Quick Assist
+    "MicrosoftCorporationII.QuickAssist"
+    # Skype
+    "Microsoft.SkypeApp"
+    # Solitaire & Casual Games
+    "Microsoft.MicrosoftSolitaireCollection"
+    # Store Purchase App
+    "Microsoft.StorePurchaseApp"
+    # VP9 Video Extensions
+    "Microsoft.VP9VideoExtensions"
+    # Web Media Extensions
+    "Microsoft.WebMediaExtensions"
+    # Webp Image Extensions
+    "Microsoft.WebpImageExtension"
+    # Xbox
+    "Microsoft.XboxApp"
+    "Microsoft.GamingApp"
+    "Microsoft.XboxSpeechToTextOverlay"
+    # Xbox Game Bar
+    "Microsoft.XboxGamingOverlay"
+    "Microsoft.XboxGameOverlay"
+    # Xbox Game UI
+    "Microsoft.Xbox.TCUI"
+    # Xbox Identity Provider
+    "Microsoft.XboxIdentityProvider"
+)
 
 # Starting uninstallation.
 Write-Host "Uninstalling defined pre-installed Microsoft Store apps..."
