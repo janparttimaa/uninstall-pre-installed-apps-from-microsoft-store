@@ -3,7 +3,7 @@ This PowerShell -script will uninstall following preinstalled apps from Windows 
 | Application Name                   | Package Name                                 |
 |------------------------------------|----------------------------------------------|
 | 3D Viewer                          | Microsoft.Microsoft3DViewer                  |
-| Copilot                            | Microsoft.Copilot                            |
+| [Copilot](https://learn.microsoft.com/en-us/windows/client-management/manage-windows-copilot)                            | Microsoft.Copilot                            |
 | Cortana                            | Microsoft.549981C3F5F10                      |
 | Dev Home                           | Microsoft.Windows.DevHome                    |
 | Feedback Hub                       | Microsoft.WindowsFeedbackHub                 |
