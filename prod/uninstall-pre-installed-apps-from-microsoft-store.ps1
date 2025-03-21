@@ -24,7 +24,7 @@
 .RELEASE NOTES
     20240316 - Initial release.
     20250311 - Refresh update to the script.
-    20250321 - Set variables to alphabetical order based on application name and added Copilot.
+    20250321 - Set variables to alphabetical order based on application name and added Copilot and News -apps.
 
 .EXAMPLE
     powershell.exe -ExecutionPolicy Bypass -File .\uninstall-pre-installed-apps-from-microsoft-store.ps1
@@ -65,6 +65,8 @@ $appname = @(
     "Microsoft.Whiteboard"
     # Movies & TV
     "Microsoft.ZuneVideo"
+    # News
+    "Microsoft.BingNews"
     # OneNote for Windows 10
     "Microsoft.Office.OneNote"
     # Paint 3D
