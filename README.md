@@ -17,10 +17,11 @@ This PowerShell -script will uninstall following preinstalled apps from Windows 
 | Microsoft To Do                    | Microsoft.Todos                              |
 | Microsoft Whiteboard               | Microsoft.Whiteboard                         |
 | Movies & TV                        | Microsoft.ZuneVideo                          |
+| News                               | Microsoft.BingNews                           |
 | OneNote for Windows 10             | Microsoft.Office.OneNote                     |
 | Paint 3D                           | Microsoft.MSPaint                            |
 | People                             | Microsoft.People                             |
-| Phone Link / Your Phone                         | Microsoft.YourPhone                          |
+| Phone Link / Your Phone            | Microsoft.YourPhone                          |
 | Power Automate                     | Microsoft.PowerAutomateDesktop               |
 | Quick Assist                       | MicrosoftCorporationII.QuickAssist           |
 | Skype                              | Microsoft.SkypeApp                           |
