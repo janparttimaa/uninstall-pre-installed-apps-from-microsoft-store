@@ -10,7 +10,7 @@ This PowerShell -script will uninstall following preinstalled apps from Windows 
 | Get Help                           | Microsoft.GetHelp                            |
 | Groove Music / Windows Media Player| Microsoft.ZuneMusic                          |
 | Mail and Calendar                  | microsoft.windowscommunicationsapps          | [Application deprecated by Microsoft](https://support.microsoft.com/en-us/office/outlook-for-windows-the-future-of-mail-calendar-and-people-on-windows-11-715fc27c-e0f4-4652-9174-47faa751b199).
-| **Maps**                           | **Microsoft.WindowsMaps**                | **TBA**
+| **Maps**                           | **Microsoft.WindowsMaps**                    | **[Application deprecated by Microsoft](https://learn.microsoft.com/en-us/windows/whats-new/deprecated-features-resources#maps-app).**
 | Microsoft 365 (Office) / Microsoft 365 Copilot                                    | Microsoft.MicrosoftOfficeHub                 |
 | Microsoft Clipchamp                | Clipchamp.Clipchamp                          |
 | Microsoft Pay                      | Microsoft.Wallet                             | [Application deprecated by Microsoft](https://en.wikipedia.org/wiki/Microsoft_Pay).
