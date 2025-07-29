@@ -1,7 +1,7 @@
 # Uninstall pre-installed apps from Microsoft Store
 This PowerShell -script will uninstall following preinstalled apps from Windows 10 and later:
-| Application Name                   | Package Name                                 |
-|------------------------------------|----------------------------------------------|
+| Application Name                   | Package Name                                 | Notes
+|------------------------------------|----------------------------------------------|----------------------------------------------|
 | 3D Viewer                          | Microsoft.Microsoft3DViewer                  |
 | [Copilot](https://learn.microsoft.com/en-us/windows/client-management/manage-windows-copilot)                            | Microsoft.Copilot                            |
 | Cortana                            | Microsoft.549981C3F5F10                      |
@@ -20,7 +20,7 @@ This PowerShell -script will uninstall following preinstalled apps from Windows 
 | Movies & TV                        | Microsoft.ZuneVideo                          |
 | News                               | Microsoft.BingNews                           |
 | OneNote for Windows 10             | Microsoft.Office.OneNote                     |
-| Paint 3D                           | Microsoft.MSPaint                            |
+| Paint 3D                           | Microsoft.MSPaint                            | [Application deprecated by Microsoft](https://learn.microsoft.com/en-us/windows/whats-new/deprecated-features-resources#paint-3d).
 | People                             | Microsoft.People                             |
 | Phone Link / Your Phone            | Microsoft.YourPhone                          |
 | Power Automate                     | Microsoft.PowerAutomateDesktop               |
