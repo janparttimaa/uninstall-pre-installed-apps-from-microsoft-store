@@ -34,6 +34,7 @@ This PowerShell -script will uninstall following preinstalled apps from Windows 
 | Web Media Extensions               | Microsoft.WebMediaExtensions                 |
 | Webp Image Extensions              | Microsoft.WebpImageExtension                 |
 | Xbox                               | Microsoft.XboxApp<br>Microsoft.GamingApp<br>Microsoft.XboxSpeechToTextOverlay |
+| **Xbox Console Companion**         | **Microsoft.XboxApp**                        |
 | Xbox Game Bar                      | Microsoft.XboxGameOverlay<br>Microsoft.XboxGamingOverlay |
 | Xbox Game UI                       | Microsoft.Xbox.TCUI                          |
 | Xbox Identity Provider             | Microsoft.XboxIdentityProvider               |
