@@ -10,8 +10,8 @@ This PowerShell -script will uninstall following preinstalled apps from Windows 
 | Get Help                           | Microsoft.GetHelp                            |
 | Groove Music / Windows Media Player| Microsoft.ZuneMusic                          |
 | Mail and Calendar                  | microsoft.windowscommunicationsapps          | [Application deprecated by Microsoft](https://support.microsoft.com/en-us/office/outlook-for-windows-the-future-of-mail-calendar-and-people-on-windows-11-715fc27c-e0f4-4652-9174-47faa751b199).
-| Maps                 | **TBA**          | **TBA**
-| Microsoft 365 (Office) / Microsoft 365 Copilot             | Microsoft.MicrosoftOfficeHub                 |
+| Maps                               | **Microsoft.WindowsMaps**                    | **TBA**
+| Microsoft 365 (Office) / Microsoft 365 Copilot                                    | Microsoft.MicrosoftOfficeHub                 |
 | Microsoft Clipchamp                | Clipchamp.Clipchamp                          |
 | Microsoft Pay                      | Microsoft.Wallet                             | [Application deprecated by Microsoft](https://en.wikipedia.org/wiki/Microsoft_Pay).
 | Microsoft Reality Portal           | Microsoft.MixedReality.Portal                | [Application deprecated by Microsoft](https://learn.microsoft.com/en-us/windows/whats-new/deprecated-features).
@@ -29,7 +29,7 @@ This PowerShell -script will uninstall following preinstalled apps from Windows 
 | Skype                              | Microsoft.SkypeApp                           | [Application deprecated by Microsoft](https://support.microsoft.com/en-us/skype/skype-is-retiring-in-may-2025-what-you-need-to-know-2a7d2501-427f-485e-8be0-2068a9f90472).
 | Solitaire & Casual Games           | Microsoft.MicrosoftSolitaireCollection       |
 | Store Purchase App                 | Microsoft.StorePurchaseApp                   |
-| Tips                 | **TBA**          | **TBA**
+| Tips                               | **Microsoft.Getstarted**                     | **TBA**
 | VP9 Video Extensions               | Microsoft.VP9VideoExtensions                 |
 | Web Media Extensions               | Microsoft.WebMediaExtensions                 |
 | Webp Image Extensions              | Microsoft.WebpImageExtension                 |
