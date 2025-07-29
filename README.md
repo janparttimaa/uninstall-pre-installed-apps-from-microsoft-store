@@ -12,8 +12,8 @@ This PowerShell -script will uninstall following preinstalled apps from Windows 
 | Mail and Calendar                  | microsoft.windowscommunicationsapps          | [Application deprecated by Microsoft](https://support.microsoft.com/en-us/office/outlook-for-windows-the-future-of-mail-calendar-and-people-on-windows-11-715fc27c-e0f4-4652-9174-47faa751b199).
 | Microsoft 365 (Office) / Microsoft 365 Copilot             | Microsoft.MicrosoftOfficeHub                 |
 | Microsoft Clipchamp                | Clipchamp.Clipchamp                          |
-| Microsoft Pay                      | Microsoft.Wallet                             |
-| Microsoft Reality Portal           | Microsoft.MixedReality.Portal                |
+| Microsoft Pay                      | Microsoft.Wallet                             | [Application deprecated by Microsoft](https://en.wikipedia.org/wiki/Microsoft_Pay).
+| Microsoft Reality Portal           | Microsoft.MixedReality.Portal                | [Application deprecated by Microsoft](https://learn.microsoft.com/en-us/windows/whats-new/deprecated-features).
 | Microsoft Teams Personal           | MicrosoftTeams                               | [Application deprecated by Microsoft](https://www.theverge.com/2023/6/15/23761859/microsoft-windows-11-teams-chat-integration-deprecation).
 | Microsoft To Do                    | Microsoft.Todos                              |
 | Microsoft Whiteboard               | Microsoft.Whiteboard                         |
