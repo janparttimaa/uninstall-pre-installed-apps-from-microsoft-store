@@ -4,28 +4,28 @@ This PowerShell -script will uninstall following preinstalled apps from Windows 
 |------------------------------------|----------------------------------------------|----------------------------------------------|
 | 3D Viewer                          | Microsoft.Microsoft3DViewer                  |
 | [Copilot](https://learn.microsoft.com/en-us/windows/client-management/manage-windows-copilot)                            | Microsoft.Copilot                            |
-| Cortana                            | Microsoft.549981C3F5F10                      |
-| Dev Home                           | Microsoft.Windows.DevHome                    |
+| Cortana                            | Microsoft.549981C3F5F10                      | [Application deprecated by Microsoft](https://support.microsoft.com/en-us/topic/end-of-support-for-cortana-d025b39f-ee5b-4836-a954-0ab646ee1efa).
+| Dev Home                           | Microsoft.Windows.DevHome                    | [Application deprecated by Microsoft](https://www.windowscentral.com/software-apps/windows-11/microsoft-is-killing-this-handy-windows-11-feature-for-developers-less-than-two-years-after-its-debut).
 | Feedback Hub                       | Microsoft.WindowsFeedbackHub                 |
 | Get Help                           | Microsoft.GetHelp                            |
 | Groove Music / Windows Media Player| Microsoft.ZuneMusic                          |
-| Mail and Calendar                  | microsoft.windowscommunicationsapps          |
+| Mail and Calendar                  | microsoft.windowscommunicationsapps          | [Application deprecated by Microsoft](https://support.microsoft.com/en-us/office/outlook-for-windows-the-future-of-mail-calendar-and-people-on-windows-11-715fc27c-e0f4-4652-9174-47faa751b199).
 | Microsoft 365 (Office) / Microsoft 365 Copilot             | Microsoft.MicrosoftOfficeHub                 |
 | Microsoft Clipchamp                | Clipchamp.Clipchamp                          |
 | Microsoft Pay                      | Microsoft.Wallet                             |
 | Microsoft Reality Portal           | Microsoft.MixedReality.Portal                |
-| Microsoft Teams Personal           | MicrosoftTeams                               |
+| Microsoft Teams Personal           | MicrosoftTeams                               | [Application deprecated by Microsoft](https://www.theverge.com/2023/6/15/23761859/microsoft-windows-11-teams-chat-integration-deprecation).
 | Microsoft To Do                    | Microsoft.Todos                              |
 | Microsoft Whiteboard               | Microsoft.Whiteboard                         |
-| Movies & TV                        | Microsoft.ZuneVideo                          |
+| Movies & TV                        | Microsoft.ZuneVideo                          | [Purchacing Movies and TV shows have been deprecated](https://support.microsoft.com/en-us/windows/watch-movies-and-tv-shows-on-the-microsoft-movies-tv-app-59328422-053f-30b3-843a-f8774567a85e).
 | News                               | Microsoft.BingNews                           |
-| OneNote for Windows 10             | Microsoft.Office.OneNote                     |
+| OneNote for Windows 10             | Microsoft.Office.OneNote                     | [Application deprecated by Microsoft](https://support.microsoft.com/en-us/office/what-is-happening-to-onenote-for-windows-10-2b453bfe-66bc-4ab2-9118-01e7eb54d2d6).
 | Paint 3D                           | Microsoft.MSPaint                            | [Application deprecated by Microsoft](https://learn.microsoft.com/en-us/windows/whats-new/deprecated-features-resources#paint-3d).
-| People                             | Microsoft.People                             |
+| People                             | Microsoft.People                             | [Application deprecated by Microsoft](https://support.microsoft.com/en-us/office/outlook-for-windows-the-future-of-mail-calendar-and-people-on-windows-11-715fc27c-e0f4-4652-9174-47faa751b199).
 | Phone Link / Your Phone            | Microsoft.YourPhone                          |
 | Power Automate                     | Microsoft.PowerAutomateDesktop               |
 | Quick Assist                       | MicrosoftCorporationII.QuickAssist           |
-| Skype                              | Microsoft.SkypeApp                           |
+| Skype                              | Microsoft.SkypeApp                           | [Application deprecated by Microsoft](https://support.microsoft.com/en-us/skype/skype-is-retiring-in-may-2025-what-you-need-to-know-2a7d2501-427f-485e-8be0-2068a9f90472).
 | Solitaire & Casual Games           | Microsoft.MicrosoftSolitaireCollection       |
 | Store Purchase App                 | Microsoft.StorePurchaseApp                   |
 | VP9 Video Extensions               | Microsoft.VP9VideoExtensions                 |
