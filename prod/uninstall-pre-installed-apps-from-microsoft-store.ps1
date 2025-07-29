@@ -9,7 +9,7 @@
     NOTE: Please check instructions from GitHub before deploying this script.
 
 .VERSION
-    20250321
+    20250729
 
 .AUTHOR
     Jan Parttimaa (https://github.com/janparttimaa/uninstall-pre-installed-apps-from-microsoft-store)
@@ -24,7 +24,8 @@
 .RELEASE NOTES
     20240316 - Initial release.
     20250311 - Refresh update to the script.
-    20250321 - Set variables to alphabetical order based on application name and added Copilot and News -apps.
+    20250321 - Set variables to alphabetical order based on application name and added "Copilot" and "News" -apps.
+    20250729 - Added "Tips", "Maps" and "Xbox Console Companion" -apps.
 
 .EXAMPLE
     powershell.exe -ExecutionPolicy Bypass -File .\uninstall-pre-installed-apps-from-microsoft-store.ps1
@@ -45,10 +46,12 @@ $appname = @(
     "Microsoft.WindowsFeedbackHub"
     # Get Help
     "Microsoft.GetHelp"
-    # Groove Music / Windows Media Player
+    # Groove Music / Media Player
     "Microsoft.ZuneMusic"
     # Mail and Calendar
     "microsoft.windowscommunicationsapps"
+    # Maps
+    "Microsoft.WindowsMaps"
     # Microsoft 365 (Office) / Microsoft 365 Copilot
     "Microsoft.MicrosoftOfficeHub"
     # Microsoft Clipchamp
@@ -85,6 +88,8 @@ $appname = @(
     "Microsoft.MicrosoftSolitaireCollection"
     # Store Purchase App
     "Microsoft.StorePurchaseApp"
+    # Tips
+    "Microsoft.Getstarted"
     # VP9 Video Extensions
     "Microsoft.VP9VideoExtensions"
     # Web Media Extensions
@@ -92,9 +97,10 @@ $appname = @(
     # Webp Image Extensions
     "Microsoft.WebpImageExtension"
     # Xbox
-    "Microsoft.XboxApp"
     "Microsoft.GamingApp"
     "Microsoft.XboxSpeechToTextOverlay"
+    # Xbox Console Companion
+    "Microsoft.XboxApp"
     # Xbox Game Bar
     "Microsoft.XboxGamingOverlay"
     "Microsoft.XboxGameOverlay"
