@@ -8,7 +8,7 @@ This PowerShell -script will uninstall following preinstalled apps from Windows 
 | Dev Home                           | Microsoft.Windows.DevHome                    | [Application deprecated by Microsoft](https://www.windowscentral.com/software-apps/windows-11/microsoft-is-killing-this-handy-windows-11-feature-for-developers-less-than-two-years-after-its-debut).
 | Feedback Hub                       | Microsoft.WindowsFeedbackHub                 |
 | Get Help                           | Microsoft.GetHelp                            |
-| Groove Music / Windows Media Player| Microsoft.ZuneMusic                          |
+| Groove Music / Media Player        | Microsoft.ZuneMusic                          |
 | Mail and Calendar                  | microsoft.windowscommunicationsapps          | [Application deprecated by Microsoft](https://support.microsoft.com/en-us/office/outlook-for-windows-the-future-of-mail-calendar-and-people-on-windows-11-715fc27c-e0f4-4652-9174-47faa751b199).
 | **Maps**                           | **Microsoft.WindowsMaps**                    | **[Application deprecated by Microsoft](https://learn.microsoft.com/en-us/windows/whats-new/deprecated-features-resources#maps-app).**
 | Microsoft 365 (Office) / Microsoft 365 Copilot                                    | Microsoft.MicrosoftOfficeHub                 |
